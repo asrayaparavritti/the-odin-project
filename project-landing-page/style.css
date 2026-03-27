@@ -5,10 +5,30 @@
    
 }
 
+
+/*-- Hero Section --*/
+
 .hero, footer {
     background-color: #1f2937;
     font-family: "Roboto";
+    padding: 70px;
 }
+
+.awesome {
+    padding: 50px;
+}
+.main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*-- Buttons Section --*/
 
 .button {
     color: white;
