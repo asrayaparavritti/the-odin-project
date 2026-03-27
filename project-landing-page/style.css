@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero, footer {
+    background-color: #1f2937;
+    font-family: "Roboto";
+}
+
+.button {
+    color: white;
+    background-color: #3882f6;
+    padding: 5px;
+    margin: 2px;
+    
+}
+
+.two {
+    border: solid white 2px;
+}
