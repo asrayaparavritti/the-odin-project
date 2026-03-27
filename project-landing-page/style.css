@@ -5,13 +5,20 @@
    
 }
 
+body {
+    font-family: "Roboto";
+}
 
 /*-- Hero Section --*/
 
-.hero, footer {
+.hero {
     background-color: #1f2937;
-    font-family: "Roboto";
+    color: #f9faf8;
     padding: 70px;
+}
+
+.hero-logo {
+    font-size: 24px;
 }
 
 .awesome {
@@ -19,13 +26,12 @@
 }
 .main {
     font-size: 48px;
-    color: #f9faf8;
     font-weight: 900;
 }
 
-.secondary {
+.hero .secondary {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #d3d7df;
 }
 
 /*-- Buttons Section --*/
@@ -41,4 +47,10 @@
 
 .two {
     border: solid white 2px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 7px;
 }
