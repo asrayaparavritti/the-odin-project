@@ -34,6 +34,23 @@ body {
     color: #d3d7df;
 }
 
+/*-- Random Information --*/
+
+.random-information {
+    padding: 50px;
+}
+
+.illustration {
+    border: 2px solid rgb(163, 142, 202);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;  
+}
+
+
+
 /*-- Buttons Section --*/
 
 .button {
