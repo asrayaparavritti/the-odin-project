@@ -59,8 +59,22 @@ body {
 
 .god-of-thunder {
     padding: 50px;
+    background-color: #e5e7eb;
 }
 
+
+/*-- sign up --*/
+
+.sign-up {
+    padding: 50px;
+}
+
+.call-action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 25px;
+    border-radius: 10px;
+}
 
 /*-- Buttons Section --*/
 
