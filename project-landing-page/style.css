@@ -38,6 +38,7 @@ body {
 
 .random-information {
     padding: 50px;
+    display: flex;
 }
 
 .illustration {
