@@ -49,6 +49,9 @@ body {
 
 .main-dois {
     display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .awesome {
@@ -141,8 +144,8 @@ body {
 .button {
     color: white;
     background-color: #3882f6;
-    padding: 5px;
-    margin: 2px;
+    padding: 10px;
+    margin: 5px;
     border-radius: 7px;
     
 }
