@@ -69,9 +69,16 @@ body {
 
 
 .god-of-thunder {
-    padding: 70px;
+    padding: 100px;
     background-color: #e5e7eb;
     display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.god-said {
+    padding: 50px;
+    margin: 20px;
+    font-size: larger;
 }
 
 
@@ -80,6 +87,7 @@ body {
 .sign-up {
     padding: 50px;
     display: flex;
+    justify-content: center;
 }
 
 .call-action {
