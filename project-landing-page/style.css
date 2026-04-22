@@ -14,12 +14,41 @@ body {
 .hero {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 70px;
+    padding: 200px;
+   
+}
+
+.topbar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+
+}
+
+.navegacao {
+    display: flex;
+    gap: 20px;
+    
 }
 
 .hero-logo {
     font-size: 24px;
+}
+
+.hero-image {
+    padding: 5px;
+    margin: 5px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3d7dfa4;
+}
+
+.main-dois {
+    display: flex;
 }
 
 .awesome {
@@ -27,7 +56,7 @@ body {
 }
 .main {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 900;;
 }
 
 .hero .secondary {
