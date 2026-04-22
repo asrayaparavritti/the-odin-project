@@ -37,9 +37,17 @@ body {
 
 /*-- Random Information --*/
 
-.random-information {
-    padding: 50px;
+.random-information  h2 {
+    padding: 100px;
+    text-align: center;
+}
+
+.info-conteiner {
     display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 .illustration {
@@ -48,19 +56,20 @@ body {
     padding: 5px;
     margin: 5px;
     width: 100px;
-    height: 100px;  
+    height: 100px;
 }
 
-/*-- .bloco-de-informacao {
-
-} --*/
+.bloco-de-informacao {
+    margin: 50px;
+    text-align: center;
+}
 
 
 /*-- God of Thunder --*/
 
 
 .god-of-thunder {
-    padding: 50px;
+    padding: 70px;
     background-color: #e5e7eb;
     display: flex;
 }
