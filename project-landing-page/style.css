@@ -85,7 +85,7 @@ body {
 /*-- sign up --*/
 
 .sign-up {
-    padding: 50px;
+    padding: 100px;
     display: flex;
     justify-content: center;
 }
@@ -93,8 +93,18 @@ body {
 .call-action {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 25px;
     border-radius: 10px;
+    display: flex;
+    padding: 50px;
+    margin: 10px;
+    height: 150px;
+    width: 900px;
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 /*-- Buttons Section --*/
