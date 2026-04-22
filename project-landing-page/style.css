@@ -15,6 +15,7 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 70px;
+    display: flex;
 }
 
 .hero-logo {
@@ -61,6 +62,7 @@ body {
 .god-of-thunder {
     padding: 50px;
     background-color: #e5e7eb;
+    display: flex;
 }
 
 
@@ -68,6 +70,7 @@ body {
 
 .sign-up {
     padding: 50px;
+    display: flex;
 }
 
 .call-action {
@@ -99,4 +102,6 @@ footer {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 50px;
+    display: flex;
+    justify-content: center;
 }
