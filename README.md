@@ -9,7 +9,7 @@ Repositório para organizar exercícios e projetos do curso The Odin Project.
 ### 1. Foundations
 - [x] Ambiente de Desenvolvimento (Ubuntu)
 - [x] Git & GitHub
-- [ ] HTML & CSS (Em progresso...)
+- [x] HTML & CSS
 - [ ] JavaScript
 
 ### 2. Full Stack JavaScript
