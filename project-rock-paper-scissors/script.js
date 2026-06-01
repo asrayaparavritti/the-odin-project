@@ -1,3 +1,8 @@
+// Variaveis Globais
+
+let humanScore = 0;
+let computerScore = 0;
+
 // Computer Choice
 
 function getComputerChoice (choiceCPU) {
