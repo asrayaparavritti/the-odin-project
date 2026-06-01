@@ -1,7 +1,18 @@
-console.log("Hello World!");
+// Computer Choice
 
-function getComputerChoice (choice) {
-    return Math.floor(Math.random() * choice);
+function getComputerChoice (choiceCPU) {
+    return Math.floor(Math.random() * choiceCPU);
 }
 
 console.log(getComputerChoice(3));
+
+let computerChoice = getComputerChoice(3);
+
+// Human Choice
+
+function getHumanChoice () {
+    let userChoice = window.prompt("Digite Pedra, Papel ou Tesoura: ");
+    return userChoice;
+}
+
+let humanChoice = getHumanChoice();
