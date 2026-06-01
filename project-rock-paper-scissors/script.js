@@ -20,4 +20,22 @@ function getHumanChoice () {
     return userChoice;
 }
 
+console.log(getHumanChoice());
+
 let humanChoice = getHumanChoice();
+
+// PlayRound
+
+function playRound (humanChoice, computerChoice) {
+    let escolhaUser = humanChoice.toLowerCase();
+    let escolhaCPU = computerChoice;
+
+    if ( escolhaCPU === 0) {
+        escolhaCPU = "pedra";
+    } else if (escolhaCPU === 1) {
+        escolhaCPU = "papel";
+    } else if (escolhaCPU === 2) {
+        escolhaCPU = "tesoura";
+    }
+    
+}
