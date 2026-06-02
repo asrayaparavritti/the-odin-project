@@ -1,41 +1,27 @@
-// Variaveis Globais
+function getComputerChoice (max) {
 
-let humanScore = 0;
-let computerScore = 0;
+    let getCPU = Math.floor(Math.random() * max );
 
-// Computer Choice
+    if (getCPU === 0) {
+        getCPU = "pedra";
+    } else if (getCPU === 1) {
+        getCPU = "papel";
+    } else if (getCPU === 2) {
+        getCPU = "tesoura";
+    }
 
-function getComputerChoice (choiceCPU) {
-    return Math.floor(Math.random() * choiceCPU);
+    return getCPU;
 }
 
 console.log(getComputerChoice(3));
-
-let computerChoice = getComputerChoice(3);
-
-// Human Choice
+let computerChoice = getComputerChoice();
 
 function getHumanChoice () {
-    let userChoice = window.prompt("Digite Pedra, Papel ou Tesoura: ");
-    return userChoice;
+    let getUSER = window.prompt("Escolha Pedra, Papel ou Tesoura: ");
+    getUSER = getUSER.toLowerCase();
+
+    return getUSER;
 }
 
 console.log(getHumanChoice());
-
-let humanChoice = getHumanChoice();
-
-// PlayRound
-
-function playRound (humanChoice, computerChoice) {
-    let escolhaUser = humanChoice.toLowerCase();
-    let escolhaCPU = computerChoice;
-
-    if ( escolhaCPU === 0) {
-        escolhaCPU = "pedra";
-    } else if (escolhaCPU === 1) {
-        escolhaCPU = "papel";
-    } else if (escolhaCPU === 2) {
-        escolhaCPU = "tesoura";
-    }
-    
-}
+let userChoice = getHumanChoice();
