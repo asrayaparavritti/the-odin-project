@@ -66,7 +66,7 @@ function playGame () {
 
     console.log("--- RODADA 5 ---");
     playRound(getHumanChoice(), getComputerChoice(3));
-    console.log(`Placar atual - Você: ${userScore} | PC: ${computerScore}`);
+    console.log(`Placar Final - Você: ${userScore} | PC: ${computerScore}`);
 }
 
 
