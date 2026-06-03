@@ -1,6 +1,3 @@
-let userScore = 0;
-let computerScore = 0;
-
 function getComputerChoice (max) {
 
     let getCPU = Math.floor(Math.random() * max );
@@ -16,20 +13,20 @@ function getComputerChoice (max) {
     return getCPU;
 }
 
-console.log(getComputerChoice(3));
-let computerChoice = getComputerChoice(3);
-
 function getHumanChoice () {
     let getUSER = window.prompt("Escolha Pedra, Papel ou Tesoura: ");
     getUSER = getUSER.toLowerCase();
 
     return getUSER;
-}
+};
 
-let userChoice = getHumanChoice();
-console.log(userChoice);
 
-function playRound (userChoice, computerChoice) {
+function playGame () {
+
+    let userScore = 0;
+    let computerScore = 0;
+
+    function playRound (userChoice, computerChoice) {
 
     if (userChoice === computerChoice) {
 
@@ -50,8 +47,27 @@ function playRound (userChoice, computerChoice) {
         computerScore++;
     }
              
+}   
+    console.log("--- RODADA 1 ---");
+    playRound(getHumanChoice(), getComputerChoice(3));
+    console.log(`Placar atual - Você: ${userScore} | PC: ${computerScore}`);
+
+    console.log("--- RODADA 2 ---");
+    playRound(getHumanChoice(), getComputerChoice(3));
+    console.log(`Placar atual - Você: ${userScore} | PC: ${computerScore}`);
+
+    console.log("--- RODADA 3 ---");
+    playRound(getHumanChoice(), getComputerChoice(3));
+    console.log(`Placar atual - Você: ${userScore} | PC: ${computerScore}`);
+
+    console.log("--- RODADA 4 ---");
+    playRound(getHumanChoice(), getComputerChoice(3));
+    console.log(`Placar atual - Você: ${userScore} | PC: ${computerScore}`);
+
+    console.log("--- RODADA 5 ---");
+    playRound(getHumanChoice(), getComputerChoice(3));
+    console.log(`Placar atual - Você: ${userScore} | PC: ${computerScore}`);
 }
 
-playRound(userChoice, computerChoice);
-console.log(userScore);
-console.log(computerScore);
+
+playGame();
