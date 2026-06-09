@@ -47,27 +47,27 @@ function playGame (){
     console.log("Rodada 1");
 
     playRound(getHumanChoice(), getComputerChoice(3));
-    console.log(`Pontuação do usuario:${userScore}, e pontuação do Computador:${computerScore}`)
+    console.log(`Pontuação do usuario: ${userScore} | Pontuação do Computador: ${computerScore}`)
 
     console.log("Rodada 2");
 
     playRound(getHumanChoice(), getComputerChoice(3));
-    console.log(`Pontuação do usuario:${userScore}, e pontuação do Computador:${computerScore}`);
+    console.log(`Pontuação do usuario: ${userScore} | Pontuação do Computador: ${computerScore}`)
 
     console.log("Rodada 3");
 
     playRound(getHumanChoice(), getComputerChoice(3));
-    console.log(`Pontuação do usuario:${userScore}, e pontuação do Computador:${computerScore}`);
+    console.log(`Pontuação do usuario: ${userScore} | Pontuação do Computador: ${computerScore}`)
 
     console.log("Rodada 4");
 
     playRound(getHumanChoice(), getComputerChoice(3));
-    console.log(`Pontuação do usuario:${userScore}, e pontuação do Computador:${computerScore}`);
+    console.log(`Pontuação do usuario: ${userScore} | Pontuação do Computador: ${computerScore}`)
 
     console.log("Rodada 5");
 
     playRound(getHumanChoice(), getComputerChoice(3));
-    console.log(`Pontuação do usuario:${userScore}, e pontuação do Computador:${computerScore}`);
+    console.log(`Pontuação do usuario: ${userScore} | Pontuação do Computador: ${computerScore}`)
 
 
 }
