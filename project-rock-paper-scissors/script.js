@@ -66,8 +66,7 @@ function playGame (){
 
     console.log("Rodada 5");
 
-    playRound(getHumanChoice(), getComputerChoice(3));
-    console.log(`Pontuação do usuario: ${userScore} | Pontuação do Computador: ${computerScore}`)
+  
 
 
 }
