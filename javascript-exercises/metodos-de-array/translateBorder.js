@@ -1,3 +1,5 @@
+
+/*
 function camelize(str) {
     let a = str.split("-");
 
@@ -8,6 +10,24 @@ function camelize(str) {
     let b = a.join("");
 
     return b;
+}
+
+console.log(camelize("background-color")); */
+
+function camelize(str) {
+    let a = str.split("-");
+
+    let nova = a.map(function (palavra, indice) {
+        if (indice === 0) {
+            return palavra;
+        } else {
+            return palavra[0].toUpperCase() + palavra.slice(1);
+        }
+    });
+
+        let b = nova.join("");
+
+        return b;
 }
 
 console.log(camelize("background-color"));
