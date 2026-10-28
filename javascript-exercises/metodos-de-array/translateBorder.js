@@ -1,7 +1,7 @@
 function camelize(str) {
     let a = str.split("-");
-    
-    for (i = 1; i < a.length; i++) {
+
+    for(let i = 1; i < a.length; i++) {
         a[i] = a[i][0].toUpperCase() + a[i].slice(1);
     }
 
